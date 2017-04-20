@@ -14,8 +14,6 @@ yarn install && \
 
 printf "\nBuilding in progress...\nPlease wait...\n\n" && \
 npm run build && \
-
-printf "\nRunning preliminary tests...\n" && \
-npm -s test && \
+webpack && \
 
 printf "All done...\n"
